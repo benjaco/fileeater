@@ -4,7 +4,7 @@ Popup to selecting a file
 
 Sorry some of the code and text is in Danish
 
-[Demo](http://fileeater.comli.com/)
+php >= 5.5
 
 Require [php-image-magician](https://github.com/Oberto/php-image-magician)
 
