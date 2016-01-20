@@ -16,6 +16,7 @@ if ($zip->open($archive_file_name, ZIPARCHIVE::CREATE) !== TRUE) {
 $filer = scandir(substr_replace($folder, "", -1));
 unset($filer[0]);
 unset($filer[1]);
+unset($filer[2]);
 
 
 foreach ($filer as $files) {
